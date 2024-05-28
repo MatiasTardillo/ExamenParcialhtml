@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    min-height: 100lvh;
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(0, 0, 0, 0.4)),url(https://images.squarespace-cdn.com/content/v1/530e6f89e4b0f62bb1b853af/1415804413001-EY599HTB0S4UHJB48WVN/IMG_6516.JPG) no-repeat center center fixed;
+    background-size: cover; 
+    color: white;
+}
+#contenedor{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.botones{
+    margin: 20px;
+}
+.botones a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px      
+}
+.botones a:hover{
+    opacity: 0.5;
+}
+#redes{
+    list-style-type: none;
+    filter: invert(1);
+}
+#redes a{
+    margin: 0.2%;
+}
+#redes a:hover{
+    opacity: 0.5;
+}
+h1{
+    font-size:500% ;
+    margin: 35px auto;
+    font-style: italic;
+    letter-spacing: 9px;
+}
+h2{
+    margin: 20px auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 150%;
+}
+span{
+    font-style: oblique;
+    opacity: 0.65;
+}
